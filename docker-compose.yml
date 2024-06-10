@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  mongodb:
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: matricula
+      MONGO_INITDB_ROOT_PASSWORD: matricula
+    ports:
+      - "27017:27017"
